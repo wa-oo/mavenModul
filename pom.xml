@@ -5,7 +5,14 @@
 	<groupId>com.wt.deom</groupId>
 	<artifactId>di4xml</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+  	<modules>
+  		<module>MavenDao</module>
+  		<module>MavenController</module>
+		<module>MavenService</module>
+  	</modules>
 
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
